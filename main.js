@@ -73,7 +73,7 @@ function displayExercises(exercises) {
         muscleElement.innerHTML = `
             <h2 class="exercise-name">${exercise.name}</h2>`;
 
-        muscleElement.addEventListener('click', () => { // Fixed syntax error here
+        muscleElement.addEventListener('click', () => { 
             displayInstructions(exercise);
         });
 
@@ -90,7 +90,7 @@ function displayInstructions(exercise) {
         <p class="instruction-description">${exercise.instructions}</p>`; 
 
     exerciseResults.innerHTML = ''; // Clear previous exercises
-    exerciseResults.appendChild(instructionElement); // Show instructions
+    exerciseResults.appendChild(instructionElement); 
 }
 
 // Event listener for search button click
