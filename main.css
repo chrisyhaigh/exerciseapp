@@ -38,10 +38,8 @@ p {
     flex-direction: row;
 }
 
-
-
 .dumbell-image {
-    width: 60px;
+    width: 50px;
     margin-left: 5px;
     margin-top: 6px;
 }
@@ -52,8 +50,8 @@ p {
 
 .exercise-details-container {
     background-color: rgb(3, 51, 51);
-    border-radius: 2cqb;
-    padding: 15px;
+    border-radius: 1cqb;
+    padding: 20px;
     width: 600px;
 }
 
@@ -104,7 +102,37 @@ button:hover {
     background-color: rgb(129, 109, 20);
 }
 
+@media screen and (max-width: 980px) {
+    h1 {
+        font-size: 20px;
+    }
 
+    h2 {
+        font-size: 15px;
+    }
+
+    .dumbell-image {
+        width: 40px;
+    }
+
+    .exercise-details-container {
+        width: 480px;
+    }
+
+    .exercise-name {
+        font-size: 13px;
+    }
+
+    .instruction-description {
+        font-size: 12px;
+    }
+
+    select {
+        width: 140px;
+        border-radius: 1cqb;
+        padding: 5px;
+    }
+}
 
 @media screen and (max-width: 680px) {
     h1 {
@@ -120,7 +148,7 @@ button:hover {
     }
 
     .exercise-details-container {
-        width: 250px;
+        width: 280px;
     }
 
     .exercise-name {
