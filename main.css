@@ -1,0 +1,139 @@
+/* CSS Examples for project */
+
+body {
+    background-color: rgb(9, 0, 31);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+    margin: 0;
+}
+
+h1, h2 {
+    color: white;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+
+span {
+    color: rgba(228, 194, 3, 0.877);
+}
+
+p {
+    color: white;
+}
+
+.main-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title-intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+
+.dumbell-image {
+    width: 60px;
+    margin-left: 5px;
+    margin-top: 6px;
+}
+
+.exercise-intro-info {
+    margin-top: -20px;
+}
+
+.exercise-details-container {
+    background-color: rgb(3, 51, 51);
+    border-radius: 2cqb;
+    padding: 15px;
+    width: 600px;
+}
+
+.exercise-details-select {
+    display: flex;
+    justify-content: space-between;
+}
+
+.exercise-name {
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.exercise-name:hover {
+    cursor: pointer;
+    color: aqua;
+}
+
+.instructions {
+    background-color: rgb(4, 82, 82);
+    padding: 10px;
+    border-radius: 1cqb;
+    margin-top: 10px;
+}
+
+.instruction-description {
+    font-size: 14px;
+}
+
+select {
+    width: 200px;
+    border-radius: 1cqb;
+    padding: 5px;
+}
+
+button {
+    background-color: rgba(228, 194, 3, 0.877);
+    border: none;
+    color: white;
+    border-radius: 1cqb;
+    padding: 5px;
+    width: 100px;
+    font-size: 13px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(129, 109, 20);
+}
+
+
+
+@media screen and (max-width: 680px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 15px;
+    }
+
+    .dumbell-image {
+        width: 40px;
+    }
+
+    .exercise-details-container {
+        width: 250px;
+    }
+
+    .exercise-name {
+        font-size: 13px;
+    }
+
+    .instruction-description {
+        font-size: 12px;
+    }
+
+    select {
+        width: 140px;
+        border-radius: 1cqb;
+        padding: 5px;
+    }
+}
